@@ -30,7 +30,7 @@
   "eslintConfig": {
     "extends": "@antfu",
     "rules": {
-      "vue/component-tags-order": [
+      "vue/block-order": [
         "error",
         {
           "order": [
