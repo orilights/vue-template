@@ -1,8 +1,8 @@
 <template>
-  <div class="h-screen flex flex-col items-center justify-center">
+  <div class="flex flex-col items-center justify-center h-screen">
     <HelloWorld />
     <button
-      class="px-2 py-1 rounded-md border hover:border-blue-500"
+      class="px-2 py-1 border rounded-md hover:border-blue-500"
       @click="count++"
     >
       Count: {{ count }}
