@@ -1,3 +1,10 @@
+<script setup lang="ts">
+import { useStore } from '@/store'
+
+const store = useStore()
+const { count } = toRefs(store)
+</script>
+
 <template>
   <div class="flex flex-col items-center justify-center h-screen">
     <HelloWorld />
@@ -9,7 +16,3 @@
     </button>
   </div>
 </template>
-
-<script setup lang="ts">
-const count = ref(1)
-</script>
