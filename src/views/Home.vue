@@ -6,12 +6,9 @@ const { count } = toRefs(store)
 </script>
 
 <template>
-  <div class="flex flex-col items-center justify-center h-screen">
+  <div class="flex h-screen flex-col items-center justify-center">
     <HelloWorld />
-    <button
-      class="px-2 py-1 border rounded-md hover:border-blue-500"
-      @click="count++"
-    >
+    <button class="rounded-md border px-2 py-1 hover:border-blue-500" @click="count++">
       Count: {{ count }}
     </button>
   </div>
