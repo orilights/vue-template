@@ -15,12 +15,11 @@ export default defineConfig({
     vue(),
     AutoImport({
       imports: ['vue', 'vue-router'],
-      dts: true,
+      dts: 'src/auto-imports.d.ts',
       vueTemplate: true,
     }),
     Components({
-      dts: true,
-      directoryAsNamespace: true,
+      dts: 'src/components.d.ts',
     }),
   ],
 })
