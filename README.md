@@ -4,10 +4,10 @@
 
 ## 包含
 
-- Vue，Vite，Vue Router，Pinia，TypeScript
-- TailwindCSS，Sass
-- [antfu](https://github.com/antfu) 大佬开发的自动导入插件 [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) 和 [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) ，基于 Vite
-- ESLint，保存时自动格式化代码，规则使用 [antfu/eslint-config](https://github.com/antfu/eslint-config)、[eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
+- [Vue](https://vuejs.org/), [Vite](https://vite.dev/), [Vue Router](https://router.vuejs.org/), [Pinia](https://pinia.vuejs.org/), [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/), [Sass](https://sass-lang.com/)
+- [unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import), [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components)
+- [ESLint](https://eslint.org/), [antfu/eslint-config](https://github.com/antfu/eslint-config)
 
 ## 参考
 
