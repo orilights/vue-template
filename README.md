@@ -5,7 +5,7 @@
 ## 包含
 
 - [Vue](https://vuejs.org/), [Vite](https://vite.dev/), [Vue Router](https://router.vuejs.org/), [Pinia](https://pinia.vuejs.org/), [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/), [Sass](https://sass-lang.com/)
+- [Tailwind CSS](https://tailwindcss.com/), [Sass](https://sass-lang.com/), [Lucide Icons](https://lucide.dev/)
 - [unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import), [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components)
 - [ESLint](https://eslint.org/), [antfu/eslint-config](https://github.com/antfu/eslint-config)
 

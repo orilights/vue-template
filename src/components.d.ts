@@ -12,6 +12,9 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
+    LucideParse: typeof import('@lucide/vue')['Parse']
+    LucidePause: typeof import('@lucide/vue')['Pause']
+    LucideStar: typeof import('@lucide/vue')['Star']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

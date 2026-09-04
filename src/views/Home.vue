@@ -8,6 +8,7 @@ const { count } = toRefs(store)
 <template>
   <div class="flex h-screen flex-col items-center justify-center">
     <HelloWorld />
+    <LucideStar fill="orange" stroke-width="0" />
     <button class="rounded-md border px-2 py-1 hover:border-blue-500" @click="count++">
       Count: {{ count }}
     </button>
